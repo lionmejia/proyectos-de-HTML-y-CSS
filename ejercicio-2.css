@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f5f9;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  min-height: 250px;
+  border-radius: 16px;
+  height: 100vh;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-bottom: 16px;
+  border-radius: 16px;
+  width: 380px;
+  min-height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+}
+
+div img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+div h1 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  color: #111729;
+}
+
+div article {
+  padding-top: 10px;
+  padding-bottom: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 1rem;
+  color: #677489;
+}
+
+div footer {
+  border-top: 2px solid #e5e9f2;
+}
+
+div footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+div footer img {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f2f5f9;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.card-footer {
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  display: flex;
+  gap: 10px; /* Espacio entre elementos flexibles en el eje principal */
+}
+
+.primer-text {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111729;
+}
+
+.segundo-text {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #677489;
+}
+
+section {
+  display: block;
+}
+
+.card-footer-text {
+  line-height: 3%;
+}
