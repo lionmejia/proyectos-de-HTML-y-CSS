@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background-color: #fafaf9;
+  margin: 0;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-1 {
+  position: absolute; /* Se utiliza para posicionar un elemento de forma absoluta con respecto a su primer ancestro posicionado o al elemento contenedor. */
+  left: 5%; /* Desde la parte superior del contenedor relativo */
+  top: 20%; /* Desde la izquierda del contenedor relativo */
+  min-width: 250px;
+  max-width: 50%;
+}
+
+.emoji {
+  width: 40px; /* Ancho del contenedor */
+  height: 40px; /* Altura del contenedor */
+  border-radius: 50%; /* Hace que el contenedor sea redondeado */
+  background-color: #f5c044; /* Color de fondo amarillo */
+  display: flex; /* Alineación del contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+.titulo {
+  margin-top: 15px;
+  font-size: 2.25rem;
+  color: #18181b;
+  margin-bottom: 10px;
+}
+
+.parrafo {
+  font-size: 20px;
+  color: #18181b;
+}
+
+.lista-desordenada {
+  margin-top: 35px;
+  font-size: 0.875rem;
+  line-height: 40px;
+}
+
+.check-1,
+.check-2,
+.check-3 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+article {
+  margin-left: 10px;
+}
+
+.section-2 {
+  position: absolute;
+  left: 66%;
+  top: 20%;
+  min-width: 250px;
+  background-color: #ffffff;
+  padding: 30px;
+  padding-right: 2px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.google {
+  width: 20%;
+  height: auto;
+}
+
+.estrellas {
+  margin-left: 15px;
+}
+
+.titulo-box-1,
+.titulo-box-2 {
+  font-size: 16px;
+}
+
+.contenedor-1,
+.contenedor-2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.article-box-1,
+.article-box-2 {
+  margin-left: 10px;
+}
+
+.section-3 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  min-width: 250px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.meta {
+  width: 15%;
+  height: auto;
+}
+
+.estrellas-doradas {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
