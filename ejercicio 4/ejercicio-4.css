@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url("http://127.0.0.1:5500/dev-challenges/ejercicio%204/bg-image.svg");
+  background-size: cover; /* Establece que la imagen de fondo ocupe todo el ancho y la altura de la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+}
+
+.header {
+  margin-bottom: 60px;
+}
+
+.becv {
+  width: auto;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 64px;
+}
+
+.parrafo {
+  font-size: 32px;
+}
+
+.header .titulo:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #925ca9;
+  padding: 30px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.primera-fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  gap: 3rem;
+}
+
+.segunda-fila {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.filas {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+select,
+input:focus {
+  outline: none; /* Elimina el efecto de resaltado al hacer clic en el input */
+}
+
+.filas input,
+select {
+  border-radius: 15px;
+  height: 70px;
+  width: 350px;
+  border: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+input::placeholder {
+  padding-left: 25px; /* Ajusta el espacio entre el borde izquierdo y el texto del marcador de posición */
+  color: #cdd5e0;
+  font-size: 1rem;
+}
+
+.filas label {
+  margin-bottom: 0.2rem; /* Espacio entre el label y el input */
+  text-align: left;
+}
+textarea {
+  border-radius: 15px;
+  min-width: 100%;
+  outline: none; /* Elimina el efecto de resaltado al hacer clic en el input */
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+textarea::placeholder {
+  padding-left: 25px; /* Ajusta el espacio entre el borde izquierdo y el texto del marcador de posición */
+  padding-top: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+
+button {
+  min-width: 100%;
+  min-height: 5rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  outline: none; /* Elimina el efecto de resaltado al hacer clic en el input */
+  border: none;
+  color: #4036a9;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 30px) {
+  .container {
+    flex-direction: column;
+  }
+}

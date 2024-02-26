@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page by Cole Smith</title>
+    <link
+      rel="stylesheet"
+      href="F:\web-projects\test-site\dev-challenges\ejercicio 4\ejercicio-4.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Micro+5&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img
+      class="becv"
+      src="F:\web-projects\test-site\dev-challenges\ejercicio 4\contact-form-icon.svg"
+    />
+    <div class="container">
+      <header class="header">
+        <h1 class="titulo">Interested in our</h1>
+        <h1 class="titulo">business pricing?</h1>
+        <p class="parrafo">Fill out the form to view details and we’ll</p>
+        <p class="parrafo">contact you as soon as possible.</p>
+      </header>
+      <form>
+        <div class="primera-fila">
+          <div class="filas">
+            <label for="name" class="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ethan Johnson"
+              required
+            />
+          </div>
+          <div class="filas">
+            <label for="name">Company Email</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="ethan@johnson.com"
+              required
+            />
+          </div>
+        </div>
+        <div class="segunda-fila">
+          <div class="filas">
+            <label for="name">Company Size</label>
+            <select name="name" id="name">
+              <option value="1">50-100 employees</option>
+              <option value="2">1-10 employees</option>
+              <option value="3">11-50 employees</option>
+            </select>
+          </div>
+          <div class="filas">
+            <label for="name">Subject</label>
+            <select name="name" id="name">
+              <option value="1">Building Landing pages</option>
+              <option value="2">Building web App</option>
+              <option value="3">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="filas">
+          <label for="mensaje">Message</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="13"
+            cols="80"
+            placeholder="50-100 employees"
+          ></textarea>
+        </div>
+        <button type="submit">Contact Sales</button>
+      </form>
+    </div>
+  </body>
+</html>
